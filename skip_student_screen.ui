@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>skip_student</class>
+ <widget class="QMainWindow" name="skip_student">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Skip Student</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 20pt &quot;Segoe UI Semibold&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string>SKIP STUDENTS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewBtn_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>600</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 15px;
+font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>SKIP STUDENT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>-50</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>facultydashboard_bg.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>951</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewBtn_4">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>600</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 15px;
+font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="dataTable">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>951</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Rockwell&quot;;</string>
+    </property>
+    <property name="rowCount">
+     <number>15</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>153</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>40</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>ID Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>First Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Last Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Appointment No.</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Appt. Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Appt. Time</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="viewBtn_5">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>600</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);
+border-radius: 15px;
+font: 63 12pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>SHOW DATA</string>
+    </property>
+   </widget>
+   <zorder>label_10</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_4</zorder>
+   <zorder>viewBtn_3</zorder>
+   <zorder>viewBtn_4</zorder>
+   <zorder>dataTable</zorder>
+   <zorder>viewBtn_5</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
